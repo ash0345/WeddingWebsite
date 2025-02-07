@@ -1,0 +1,44 @@
+body {
+    padding: 3em;
+    max-width: 2000px;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: grid;
+    padding: auto;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.home-image {
+    background-color: white;
+    margin: 1em;
+    border: 2px solid;
+}
+
+.home-image:hover {
+    color: black; 
+}
+
+a {
+    color: black;
+    background-color: lightgrey;
+    padding: .5em;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: blueviolet; 
+    background-color: white;
+    text-decoration: none; 
+    cursor: pointer; 
+}
+
+/*  */
+
+h1 {
+    font-family: "Brush Script MT", "Courier New", monospace;
+    /* font-size: 2em; */
+}
